@@ -1,0 +1,90 @@
+ .nav-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  .wrap-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header .container img {
+    margin: 0 10px;
+    width: 79px;
+  }
+  
+  .menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #111;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 160% */
+  }
+  .search-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .field{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+  }
+  header .icon{
+    position: absolute;
+    left:8px;
+  }
+  header input{
+    width: 180px;
+    height:40px;
+    padding: 11px 48px;
+    border-radius: 100px;
+    background: #F5F5F5;
+    border:none;
+    margin-right:20px;
+  }
+  header input::placeholder{
+    color: #CCC;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .favorite,
+  .shop{
+    border-radius: 20px;
+    color: #100F2E;
+  }
+  .shop{
+    margin-left: 18px;
+    padding: 18px 24px 18px 24px;
+  }
+  @media(min-width:960px){
+    .menu{
+        display:flex;
+    }
+}
